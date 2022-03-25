@@ -44,7 +44,4 @@ return {
     BoosterNdDose2Avl: function(bool1, bool2, data1, data2){
         return (bool1 && bool2) ? data1 : data2;
     },
-    parse: function(raw){
-        return JSON.parse(raw);
-    } 
 };
